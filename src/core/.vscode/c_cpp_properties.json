@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/lib/jvm/java-17-openjdk/include",
+                "/usr/lib/jvm/java-17-openjdk/include/linux"
+            ],
+            "defines": [],
+            "compilerPath": "/sbin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

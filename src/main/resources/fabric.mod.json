@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dust",
+  "version": "${version}",
+  "name": "Dust",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dust/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "re.larimo.calvin.dust.client.DustClient"
+    ],
+    "main": [
+      "re.larimo.calvin.dust.Dust"
+    ]
+  },
+  "mixins": [
+    "dust.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
